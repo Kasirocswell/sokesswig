@@ -29,7 +29,7 @@ const Navbar = () => {
           ? "bg-amber-300"
           : currentSection === "section2"
           ? "bg-red-600"
-          : "bg-green-100"
+          : "bg-green-300"
       }`}
     >
       <div className="flex flex-row justify-center">
