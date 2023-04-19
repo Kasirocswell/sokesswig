@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import soke from "../public/soke4.png";
+import ButtonComponent from "../components/buttonComponent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,9 @@ export default function Home() {
           <p className="absolute w-[350px] h-[100px] z-0 flex-nowrap text-white text-lg ml-[190px] mr-[-200px] mt-[355px]">
             Experience the Freshness, Savor the Energy
           </p>
+          <div>
+            <ButtonComponent text="Buy NOW!"></ButtonComponent>
+          </div>
           <Image
             src={soke}
             className="overflow-clip asbolute ml-[600px] pt-[65px] z-20"
