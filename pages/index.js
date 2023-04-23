@@ -16,7 +16,8 @@ export default function Home() {
       <section
         id="section1"
         data-section="section1"
-        className="w-screen h-screen bg-amber-300"
+        className="bg-cover bg-no-repeat bg-center h-screen"
+        style={{ backgroundImage: 'url("/bg1.png")' }}
       >
         <div className="flex h-screen w-full realtive">
           <p className="absolute w-[350px] h-[100px] z-0 flex-nowrap text-white text-6xl ml-[200px] mr-[-200px] mt-[200px]">
