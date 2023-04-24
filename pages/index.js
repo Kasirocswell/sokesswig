@@ -1,11 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import soke from "../public/soke4.png";
-import berries from "../public/IMG_2421.jpg";
 import glass from "../public/IMG_2400.jpg";
-import ButtonComponent from "../components/buttonComponent";
-import smoothies from "../public/smoothies.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,12 +39,10 @@ export default function Home() {
       <section
         id="section2"
         data-section="section2"
-        className="w-screen h-screen bg-red-600"
+        className="bg-cover bg-no-repeat bg-center h-screen"
+        style={{ backgroundImage: 'url("/bg2.png")' }}
       >
-        <div className="flex w-full h-full">
-          <div className="w-[525px] h-[500px] bg-red-500 pt-[50px] mt-4 ml-[50px]">
-            <Image src={berries} className="w-[500px] h-[500px] mb-4" />
-          </div>
+        <div className="flex w-full h-full pl-[310px] font-bold">
           <div className="w-400 h-full flex flex-col">
             <h2 className="text-6xl pl-[100px] pt-4">Fresh Ingredients</h2>
             <p className="text-md pl-[100px] pt-8 flex-wrap w-[600px]">
@@ -78,20 +72,14 @@ export default function Home() {
       <section
         id="section3"
         data-section="section3"
-        className="w-screen h-screen bg-green-300"
+        className="bg-cover bg-no-repeat bg-center h-screen"
+        style={{ backgroundImage: 'url("/bg3.png")' }}
       >
-        <div className="flex w-full h-full">
-          <div className="w-400 h-full flex flex-col">
-            <h2 className="text-6xl pl-[600px] pr-[80px] pt-4">
-              Made with California love!
-            </h2>
-            <p className="text-md pl-[600px] pt-8 whitespace-nowrap">
-              More foods stuff will go here!
-            </p>
-          </div>
-          <div className="w-[525px] h-[500px] bg-green-500 pt-[50px] pl-[30px] mt-4 mr-[50px]">
-            <Image src={smoothies} className="w-[500px] h-[500px] mb-4" />
-          </div>
+        <div className="flex flex-col pl-[450px]">
+          <h2 className="text-6xl mb-[25px]">Coming Soon!</h2>
+          <p className="font-bold">
+            Check back here later for the month's finest flavor
+          </p>
         </div>
       </section>
       <footer className="bg-green-400">Soke's Swig LLC 2023</footer>
