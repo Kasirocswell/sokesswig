@@ -37,15 +37,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav
-      className={`fixed top-0 w-full ${
-        currentSection === "section1"
-          ? "bg-amber-300"
-          : currentSection === "section2"
-          ? "bg-red-600"
-          : "bg-green-300"
-      }`}
-    >
+    <nav className={`fixed top-0 w-full`}>
       <div className="flex flex-row justify-center">
         <div className="px-4" onClick={returnToHome}>
           Home
