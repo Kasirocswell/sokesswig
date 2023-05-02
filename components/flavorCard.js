@@ -13,24 +13,24 @@ const FlavorCard = ({
   description,
 }) => {
   return (
-    <div className="flavor-card-container flex flex-col rounded-2xl mx-auto my-auto container w-[270px] h-[470px] mt-[90px] md:w-[570px] md:h-[770px] md:mt-[30px] xl:w-[670px] xl:h-[640px] xl:mt-[2px] bg-rose-100">
-      <div className="flavor-img-container flex flex-row image-stats-container mt-[10px] md:mt-[30px] xl:px-[50px] text-black justify-between rounded">
+    <div className="flavor-card-container flex flex-col rounded-2xl mx-auto my-auto container w-[270px] h-[470px] mt-[90px] md:w-[570px] md:h-[770px] md:mt-[30px] lg:w-[670px] lg:h-[640px] lg:mt-[2px] xl:w-[570px] xl:h-[480px] xl:mt-[1px] bg-rose-100">
+      <div className="flavor-img-container flex flex-row image-stats-container mt-[10px] md:mt-[30px] xl:px-[30px] xl:mt-[20px] text-black justify-between rounded">
         <Image
           src={image}
           alt=""
-          className="w-[100px] h-[200px] ml-[20px] mb-[20px] md:w-[220px] md:h-[380px] md:ml-[30px] md:mb-[30px] flex rounded-lg"
+          className="w-[100px] h-[200px] ml-[20px] mb-[20px] md:w-[220px] md:h-[380px] md:ml-[30px] md:mb-[30px] xl:w-[140px] xl:h-[270px] flex rounded-lg"
         />
         <div className="flavor-card-stats-container pr-[20px] flex-col stats-container">
-          <h2 className="text-2xl md:text-4xl xl:text-6xl">{title}</h2>
-          <p className="text-[30px]">{stats1}</p>
-          <p className="text-[30px]">{stats2}</p>
-          <p className="text-[30px]">{stats3}</p>
-          <p className="text-[30px]">{stats4}</p>
-          <p className="text-[30px]">{stats5}</p>
-          <p className="text-[30px]">{stats6}</p>
+          <h2 className="text-2xl md:text-4xl xl:text-4xl">{title}</h2>
+          <p className="text-[30px] xl:text-[25px]">{stats1}</p>
+          <p className="text-[30px] xl:text-[25px]">{stats2}</p>
+          <p className="text-[30px] xl:text-[25px]">{stats3}</p>
+          <p className="text-[30px] xl:text-[25px]">{stats4}</p>
+          <p className="text-[30px] xl:text-[25px]">{stats5}</p>
+          <p className="text-[30px] xl:text-[25px]">{stats6}</p>
         </div>
       </div>
-      <div className="text-[11.5px] px-[20px] md:text-[22.5px] md:px-[40px] xl:text-[17px] text-black">
+      <div className="text-[11.5px] px-[20px] md:text-[22.5px] md:px-[40px] xl:text-[15px] text-black">
         <p>{description}</p>
       </div>
     </div>
