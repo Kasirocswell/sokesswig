@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-const Navbar = () => {
+const Navbar = ({ textColor }) => {
   const [currentSection, setCurrentSection] = useState("");
   const router = useRouter();
   useEffect(() => {
@@ -37,7 +37,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`fixed top-0 w-full`}>
+    <nav className={`fixed top-0 w-full ${textColor}`}>
       <div className="flex flex-row justify-center">
         <div className="px-4" onClick={returnToHome}>
           Home

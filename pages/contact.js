@@ -22,14 +22,17 @@ const Contact = () => {
     console.log(data);
   };
   return (
-    <div className="w-screen h-screen bg-green-200">
+    <div className="parent-form-container w-screen h-screen pt-[90px] md:pt-[150px] bg-green-200">
       <Navbar></Navbar>
-      <div className="container pt-[400px] flex flex-row justify-between">
-        <div className="pl-[700px] text-black">
-          <h1>Contact</h1>
-          <p>Contact Stuff</p>
+      <div className="form-container flex flex-col justify-between">
+        <div className="text-center pb-[30px] md:pb-[60px] text-black">
+          <h1 className="text-6xl">Contact Sokes Swig</h1>
+          <p className="text-2xl">Have a question or want to order in bulk?</p>
         </div>
-        <form onSubmit={handleSubmit} className="flex flex-col pr-[300px]">
+        <form
+          onSubmit={handleSubmit}
+          className="w-[180px] ml-[110px] text-xl md:w-[250px] md:ml-[250px] md:text-3xl xl:ml-[770px] 2xl:ml-[770px] flex flex-col"
+        >
           <label className="text-black">First Name</label>
           <input
             type="firstName"
@@ -55,19 +58,19 @@ const Contact = () => {
           <input
             type="email"
             value={formData.email}
-            typlaceholder="Email"
+            placeholder="Email"
             className="text-black rounded"
           ></input>
           <label className="mt-[10px] text-black">Message</label>
           <textarea
-            className=" text-black align-top content-start rounded"
+            className=" text-black content-start rounded"
             type="message"
             value={formData.message}
             name="name"
           />
           <button
             type="submit"
-            className="h-[35px] w-[75px] mt-[10px] bg-white text-black rounded"
+            className="h-[35px] w-[75px] mt-[10px] md:w-[100px] bg-white text-black rounded"
           >
             Submit
           </button>

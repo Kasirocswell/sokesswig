@@ -35,7 +35,7 @@ const Flavors = () => {
         backgroundColor || "bg-sky-300"
       }`}
     >
-      <Navbar></Navbar>
+      <Navbar textColor={"text-white"}></Navbar>
       <Carousel></Carousel>
     </div>
   );
