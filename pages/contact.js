@@ -22,8 +22,8 @@ const Contact = () => {
     console.log(data);
   };
   return (
-    <div className="parent-form-container w-screen h-screen pt-[90px] md:pt-[150px] bg-green-200">
-      <Navbar></Navbar>
+    <div className="parent-form-container w-screen h-screen pt-[90px] md:pt-[70px] bg-green-200">
+      <Navbar textColor={"text-black"}></Navbar>
       <div className="form-container flex flex-col justify-between">
         <div className="text-center pb-[30px] md:pb-[60px] text-black">
           <h1 className="text-6xl">Contact Sokes Swig</h1>
@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="w-[180px] ml-[110px] text-xl md:w-[250px] md:ml-[250px] md:text-3xl xl:ml-[770px] 2xl:ml-[770px] flex flex-col"
+          className="w-[180px] ml-[110px] text-xl md:w-[250px] md:ml-[250px] md:text-3xl xl:ml-[530px] 2xl:ml-[770px] flex flex-col"
         >
           <label className="text-black">First Name</label>
           <input
