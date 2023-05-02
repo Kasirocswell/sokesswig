@@ -4,21 +4,26 @@ import Image from "next/image";
 import soke4 from "../public/soke4.png";
 const About = () => {
   return (
-    <div className="w-screen h-screen bg-yellow-200">
-      <Navbar></Navbar>
-      <div className="flex flex-row justify-between">
-        <Image src={soke4} className="pt-[200px] mr-[50px] ml-[450px]" />
-        <div className="pt-[200px] mr-[650px]">
-          <h1 className="text-6xl text-black pb-[20px]">About Soke</h1>
-          <div className="w-[600px] text-xl text-black">
-            <p className="pb-[10px]">
+    <div className="w-screen h-full md:h-screen xl:h-full 2xl:h-screen bg-yellow-200">
+      <Navbar textColor={"text-black"}></Navbar>
+      <div className="flex flex-col justify-between">
+        <Image
+          src={soke4}
+          className="w-[420px] h-[445px] pt-[30px] md:ml-[200px] xl:ml-[440px] xl:mt-[20px] 2xl:ml-[680px]"
+        />
+        <div>
+          <h1 className="text-black text-4xl text-center md:pb-[15px]">
+            About Soke
+          </h1>
+          <div className="text-black text-center px-[5px] mb-[50px] md:px-[25px] xl:px-[200px]">
+            <p>
               Soke is an extraordinary woman from St. Croix who has turned her
               passion for natural juices into a successful business venture.
               Growing up, Soke spent countless hours helping her father in their
               family's kitchen, where they would create delicious, refreshing
               juices using only natural ingredients.
             </p>
-            <p className="pb-[10px]">
+            <p>
               It was during these early years that Soke developed a deep
               appreciation for the power of fresh fruits and vegetables and
               their ability to nourish and heal the body. After completing her
