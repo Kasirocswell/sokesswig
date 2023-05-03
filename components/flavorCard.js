@@ -13,8 +13,8 @@ const FlavorCard = ({
   description,
 }) => {
   return (
-    <div className="flavor-card-container flex flex-col rounded-2xl mx-auto my-auto container w-[270px] h-[470px] mt-[90px] md:w-[570px] md:h-[770px] md:mt-[30px] lg:w-[670px] lg:h-[640px] lg:mt-[2px] xl:w-[570px] xl:h-[480px] xl:mt-[1px] bg-rose-100">
-      <div className="flavor-img-container flex flex-row image-stats-container mt-[10px] md:mt-[30px] xl:px-[30px] xl:mt-[20px] text-black justify-between rounded">
+    <div className="flavor-card-container flex flex-col rounded-2xl mx-auto my-auto container w-[270px] h-[470px] mt-[90px] md:w-[570px] md:h-[770px] md:mt-[30px] lg:w-[670px] lg:h-[640px] lg:mt-[2px] xl:w-[570px] xl:h-[480px] xl:mt-[30px] bg-rose-100">
+      <div className="flavor-img-container flex flex-row image-stats-container mt-[10px] md:mt-[30px] xl:px-[30px] xl:mt-[40px] text-black justify-between rounded">
         <Image
           src={image}
           alt=""
