@@ -9,13 +9,13 @@ const About = () => {
       <div className="flex flex-col justify-between">
         <Image
           src={soke4}
-          className="w-[420px] h-[445px] pt-[30px] md:ml-[200px] xl:ml-[440px] xl:mt-[20px] 2xl:ml-[680px]"
+          className="w-[420px] h-[445px] pt-[30px] md:ml-[200px] xl:ml-[440px] xl:mt-[6px] 2xl:ml-[580px]"
         />
         <div>
-          <h1 className="text-black text-4xl text-center md:pb-[15px]">
+          <h1 className="text-black text-4xl text-center md:pb-[15px] font-title">
             About Soke
           </h1>
-          <div className="text-black text-center px-[5px] mb-[50px] md:px-[25px] xl:px-[200px]">
+          <div className="text-black text-center px-[5px] mb-[50px] md:px-[25px] xl:px-[200px] font-thin">
             <p>
               Soke is an extraordinary woman from St. Croix who has turned her
               passion for natural juices into a successful business venture.
