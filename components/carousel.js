@@ -46,7 +46,7 @@ const cardData = [
     stats3: "Agave",
     stats4: "Potassium",
     stats5: "Vitamin B6",
-    stats6: "Reduces Risk Heart Disease",
+    stats6: "Reduces Heart Disease",
     description:
       "Try Strawnaza, a healthy and delicious fruit drink with fresh strawberries, ripe bananas, and natural agave. It's rich in potassium and vitamin B6, reducing the risk of heart disease and supporting healthy bodily functions. Enjoy the sweet and creamy taste as a quick breakfast or mid-day snack. Fuel your day with Strawnaza, the refreshing and nutritious drink!",
   },

@@ -26,12 +26,14 @@ const Contact = () => {
       <Navbar textColor={"text-black"}></Navbar>
       <div className="form-container flex flex-col justify-between">
         <div className="text-center pb-[30px] md:pb-[60px] xl:pb-[20px] text-black">
-          <h1 className="text-6xl">Contact Sokes Swig</h1>
-          <p className="text-2xl">Have a question or want to order in bulk?</p>
+          <h1 className="text-6xl font-robo">Contact Sokes Swig</h1>
+          <p className="text-2xl font-robo">
+            Have a question or want to order in bulk?
+          </p>
         </div>
         <form
           onSubmit={handleSubmit}
-          className="w-[180px] ml-[110px] text-xl md:w-[250px] md:ml-[250px] md:text-3xl lg:ml-[530px] xl:w-[250px] xl:h-[250px] xl:ml-[530px] 2xl:ml-[770px] flex flex-col"
+          className="w-[180px] ml-[110px] text-xl md:w-[250px] md:ml-[250px] md:text-3xl lg:ml-[530px] xl:w-[250px] xl:h-[250px] xl:ml-[530px] 2xl:ml-[620px] 2xl:w-[180px] 2xl:h-[210px] flex-col font-button"
         >
           <label className="text-black">First Name</label>
           <input
@@ -67,7 +69,7 @@ const Contact = () => {
             type="message"
             value={formData.message}
             name="name"
-          />
+          ></textarea>
           <button
             type="submit"
             className="h-[35px] w-[75px] mt-[10px] md:w-[100px] bg-white text-black rounded"

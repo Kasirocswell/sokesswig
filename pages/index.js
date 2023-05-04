@@ -18,19 +18,19 @@ export default function Home() {
         <div className="container">
           <div className="text-button-img-container 2xl:flex 2xl:flex-row xl:flex xl:flex-row lg:flex lg:flex-row md:mt-[100px] md:flex md:flex-row mt-[100px]flex flex-row">
             <div className="text-button-container 2xl:mr-[75px] 2xl:ml-[500px] 2xl:mt-[210px] xl:mr-[75px] xl:ml-[330px] xl:mt-[90px] lg:mr-[45px] lg:ml-[210px] lg:mt-[130px] md:mr-[10px] md:ml-[10px] md:mt-[130px] mr-[45px] ml-[30px] mt-[130px]">
-              <div className="text-container text-white text-center">
-                <h2 className="2xl:text-6xl 2xl:mb-[5px] xl:text-6xl xl:mb-[5px] lg:text-6xl lg:mb-[10px] md:text-6xl md:mb-[10px] text-6xl mb-[10px]">
+              <div className="text-container text-white text-center font-robo">
+                <h2 className="2xl:text-6xl 2xl:mb-[5px] xl:text-6xl xl:mb-[5px] lg:text-6xl lg:mb-[10px] md:text-6xl md:mb-[10px] text-6xl mb-[10px] font-title">
                   Sokes Swig
                 </h2>
-                <p className="2xl:text-3xl 2xl:mb-[50px] xl:text-3xl xl:mb-[50px] lg:text-3xl lg:mb-[50px] md:text-3xl md:mb-[50px] text-xl mb-[50px]">
+                <p className="2xl:text-3xl 2xl:mb-[50px] xl:text-3xl xl:mb-[50px] lg:text-3xl lg:mb-[50px] md:text-3xl md:mb-[50px] text-xl mb-[50px] font-paragraph">
                   Taste of the islands to your door!
                 </p>
               </div>
               <div className="button-container 2xl:ml-[90px] xl:ml-[90px] lg:ml-[90px] md:ml-[100çpx] ml-[70px]">
-                <button className="2xl:w-[100px] 2xl:h-[75px] 2xl:text-[25px] xl:w-[100px] xl:h-[75px] xl:text-[25px] lg:w-[100px] lg:h-[75px] lg:text-[25px] md:w-[100px] md:h-[75px] md:text-[25px] w-[80px] h-[40px] text-[15px] bg-white text-black font-bold rounded-2xl">
+                <button className="2xl:w-[100px] 2xl:h-[75px] 2xl:text-[25px] xl:w-[100px] xl:h-[75px] xl:text-[25px] lg:w-[100px] lg:h-[75px] lg:text-[25px] md:w-[100px] md:h-[75px] md:text-[25px] w-[80px] h-[40px] text-[15px] bg-white text-black font-bold rounded-2xl font-button">
                   Order
                 </button>
-                <button className="2xl:w-[100px] 2xl:h-[75px] 2xl:text-[25px] xl:w-[100px] xl:h-[75px] xl:text-[25px] xl:ml-[25px] lg:w-[100px] lg:h-[75px] lg:text-[25px] lg:ml-[25px] md:w-[100px] md:h-[75px] md:text-[25px] md:ml-[25px] w-[80px] h-[40px] text-[15px] ml-[25px] bg-white text-black font-bold rounded-2xl">
+                <button className="2xl:w-[100px] 2xl:h-[75px] 2xl:text-[25px] xl:w-[100px] xl:h-[75px] xl:text-[25px] xl:ml-[25px] lg:w-[100px] lg:h-[75px] lg:text-[25px] lg:ml-[25px] md:w-[100px] md:h-[75px] md:text-[25px] md:ml-[25px] w-[80px] h-[40px] text-[15px] ml-[25px] bg-white text-black font-bold rounded-2xl font-button">
                   Flavors
                 </button>
               </div>
