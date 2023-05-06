@@ -17,7 +17,7 @@ export default function Home() {
       >
         <div className="container">
           <div className="text-button-img-container 2xl:flex 2xl:flex-row xl:flex xl:flex-row lg:flex lg:flex-row md:mt-[100px] md:flex md:flex-row mt-[100px]flex flex-row">
-            <div className="text-button-container 2xl:mr-[75px] 2xl:ml-[500px] 2xl:mt-[210px] xl:mr-[75px] xl:ml-[330px] xl:mt-[90px] lg:mr-[45px] lg:ml-[210px] lg:mt-[130px] md:mr-[10px] md:ml-[10px] md:mt-[130px] mr-[45px] ml-[30px] mt-[130px]">
+            <div className="text-button-container 2xl:mr-[75px] 2xl:ml-[500px] 2xl:mt-[210px] xl:mr-[75px] xl:ml-[330px] xl:mt-[90px] lg:mr-[45px] lg:ml-[210px] lg:mt-[130px] md:mr-[10px] md:ml-[20px] md:mt-[130px] mr-[45px] ml-[30px] mt-[130px]">
               <div className="text-container text-white text-center font-robo">
                 <h2 className="2xl:text-6xl 2xl:mb-[5px] xl:text-6xl xl:mb-[5px] lg:text-6xl lg:mb-[10px] md:text-6xl md:mb-[10px] text-6xl mb-[10px] font-title">
                   Sokes Swig
@@ -48,30 +48,42 @@ export default function Home() {
         style={{ backgroundImage: 'url("/bg2.png")' }}
       >
         <div className="description-text-container 2xl:w-full 2xl:h-full 2xl:pl-[310px] xl:w-full xl:h-full xl:pl-[90px] lg:w-full lg:h-full lg:pl-[310px] md:w-full md:h-full md:pl-[4px] w-full h-full pl-[4px]flex font-bold">
-          <div className="2xl:w-400 2xl:h-full 2xl:flex 2xl:flex-col 2xl:ml-[220px] 2xl:mt-[240px] xl:w-400 xl:h-full xl:flex xl:flex-col xl:mt-[220px] lg:w-400 lg:h-full lg:flex lg:flex-col lg:ml-[200px] lg:mt-[160px] lg:text-md md:h-full md:flex md:flex-col md:ml-[70px] md:mt-[260px] md:text-md h-full flex flex-col ml-[20px] mt-[215px]">
-            <h2 className="2xl:text-6xl 2xl:pl-[100px] 2xl:pt-4 xl:text-6xl xl:pl-[100px] xl:pt-4 lg:pl-[100px] lg:pt-4 lg:text-2xl md:pl-[100px] md:pt-[10px] md:text-4xl pl-[80px] pt-4 text-2xl">
+          <div className="2xl:w-400 2xl:h-full 2xl:flex 2xl:flex-col 2xl:ml-[220px] 2xl:mt-[240px] xl:w-400 xl:h-full xl:flex xl:flex-col xl:mt-[200px] lg:w-400 lg:h-full lg:flex lg:flex-col lg:ml-[200px] lg:mt-[160px] lg:text-md md:h-full md:flex md:flex-col md:ml-[70px] md:mt-[245px] md:text-md h-full flex flex-col ml-[20px] mt-[215px]">
+            <h2 className="2xl:text-6xl 2xl:ml-[30px] 2xl:pt-[2px] xl:text-5xl xl:pl-[70px] xl:mt-4 lg:pl-[100px] lg:pt-4 lg:text-2xl md:ml-[90px] md:pt-[10px] md:text-4xl pl-[80px] pt-[2px] text-2xl font-title">
               Fresh Ingredients
             </h2>
-            <p className="2xl:text-[17.5px] 2xl:pl-[100px] 2xl:pt-3 2xl:flex-wrap 2xl:w-[600px] xl:text-sm xl:pl-[100px] xl:pt-4 xl:flex-wrap xl:w-[600px] lg:text-md lg:pl-[100px] lg:flex-wrap lg:w-[600px] lg:text-[15.5px] md:text-md md:pl-[100px] md:flex-wrap md:w-[600px] md:mt-[30px] md:text-[16.5px] text-md pr-[40px] flex-wrap w-[400px] mt-[10px] text-[13.5px]">
+            <p className="2xl:w-[850px] 2xl:text-[18.5px] 2xl:ml-[10px] 2xl:pr-[240px] 2xl:mt-[2px] xl:text-[18px] xl:pl-[50px] xl:pr-[70px] xl:mt-2 xl:flex-wrap xl:w-[700px] lg:text-md lg:pl-[100px] lg:flex-wrap lg:w-[600px] lg:text-[15.5px] md:pl-[40px] md:flex-wrap md:w-[650px] md:mt-[10px] md:text-[19.5px] text-md pr-[40px] flex-wrap w-[400px] pt-[5px] text-[14px] font-thin">
               Discover the vibrant, invigorating world of Soke's Swig, where
               every sip is a celebration of nature's finest offerings. At Soke's
               Swig, we passionately believe in the transformative power of fresh
               ingredients, handpicked and expertly blended to create a symphony
-              of taste, health, and vitality. Our commitment to quality and
-              freshness is the cornerstone of our success. We pride ourselves on
-              sourcing only the ripest, most nutrient-rich fruits and
-              vegetables, ensuring that every glass of Soke's Swig delivers a
-              powerhouse of antioxidants, vitamins, and minerals. Each juice is
-              expertly crafted to elevate your senses and nourish your body. Our
-              in-house juice connoisseurs masterfully blend flavors and textures
-              to create tantalizing, thirst-quenching concoctions that are as
-              delicious as they are nutritious. At Soke's Swig, we never
-              compromise on freshness. Our juices are cold-pressed and bottled
-              within hours of being picked, preserving the vibrant, natural
-              flavors and the vital nutrients that are the essence of our brand.
-              Experience the revitalizing magic of Soke's Swig and let the pure,
-              unadulterated goodness of nature's bounty fuel your body and
-              awaken your soul. Cheers to a healthier, more radiant you!
+              of taste, health, and vitality.
+              <p className="leading-tight">
+                <br />
+                Our commitment to quality and freshness is the cornerstone of
+                our success. We pride ourselves on sourcing only the ripest,
+                most nutrient-rich fruits and vegetables, ensuring that every
+                glass of Soke's Swig delivers a powerhouse of antioxidants,
+                vitamins, and minerals.
+              </p>
+              <p className="leading-tight">
+                <br />
+                Each juice is expertly crafted to elevate your senses and
+                nourish your body. Our in-house juice connoisseurs masterfully
+                blend flavors and textures to create tantalizing,
+                thirst-quenching concoctions that are as delicious as they are
+                nutritious.
+                <p className="leading-tight">
+                  <br />
+                  At Soke's Swig, we never compromise on freshness. Our juices
+                  are cold-pressed and bottled within hours of being picked,
+                  preserving the vibrant, natural flavors and the vital
+                  nutrients that are the essence of our brand. Experience the
+                  revitalizing magic of Soke's Swig and let the pure,
+                  unadulterated goodness of nature's bounty fuel your body and
+                  awaken your soul. Cheers to a healthier, more radiant you!
+                </p>
+              </p>
             </p>
           </div>
         </div>
@@ -82,9 +94,9 @@ export default function Home() {
         className="bg-cover bg-no-repeat bg-center h-screen"
         style={{ backgroundImage: 'url("/bg3.png")' }}
       >
-        <div className="text-container 2xl:pt-[400px] 2xl:pl-[660px] xl:pt-[225px] xl:pl-[460px] lg:pt-[225px] lg:pl-[360px] md:pt-[325px] md:pl-[230px] pt-[325px] pl-[99px] flex flex-col ">
-          <h2 className="text-6xl mb-[25px]">Coming Soon!</h2>
-          <p className="font-bold">
+        <div className="text-container 2xl:pt-[400px] 2xl:pl-[10px] xl:pt-[325px] xl:pl-[40px] lg:pt-[225px] lg:pl-[360px] md:pt-[325px] md:pl-[30px] pt-[325px] pl-[5px] flex flex-col text-center">
+          <h2 className="text-6xl mb-[25px] font-title">Coming Soon!</h2>
+          <p className="font-bold font-paragraph text-2xl">
             Check back here later for the month's finest flavor
           </p>
         </div>
