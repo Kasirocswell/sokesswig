@@ -11,6 +11,13 @@ const Contact = () => {
     message: "",
   });
 
+  const handleChange = (event) => {
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value,
+    });
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const response = await fetch("/api/submit-form", {
